@@ -16,15 +16,19 @@ If everything is done properly you will find the project running successfully. I
 
 <strong><i>Screenshots-</i></strong>
 
-<div style="float: left; width: 33.33%; padding: 10px;">
+<div align="left">
     <img src="public/images/Capture.PNG" width="400px"</img> <br>
 </div>
 
-<div style="float: left; width: 33.33%; padding: 10px;">
+
+
+<div align="center">
     <img src="public/images/Capture1.PNG" width="400px"</img> <br>
 </div>
 
-<div style="float: left; width: 33.33%; padding: 10px;">
+
+
+<div align="right">
     <img src="public/images/Capture3.PNG" width="400px"</img>
 </div>
 
