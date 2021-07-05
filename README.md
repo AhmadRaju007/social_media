@@ -25,7 +25,7 @@ If everything is done properly you will find the project running successfully. I
 </div>
 
 <div align="center">
-    <img src="public/images/Capture2.PNG" width="400px"</img> <br>
+    <img src="public/images/Capture3.PNG" width="400px"</img> <br>
 </div>
 
 
