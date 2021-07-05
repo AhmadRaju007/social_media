@@ -16,7 +16,7 @@ If everything is done properly you will find the project running successfully. I
 
 <strong><i>Screenshots-</i></strong>
 
-<div align="left">
+<div align="center">
     <img src="public/images/Capture.PNG" width="400px"</img> <br>
 </div>
 
@@ -28,7 +28,7 @@ If everything is done properly you will find the project running successfully. I
 
 
 
-<div align="right">
+<div align="center">
     <img src="public/images/Capture3.PNG" width="400px"</img>
 </div>
 
