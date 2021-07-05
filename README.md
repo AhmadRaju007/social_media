@@ -12,7 +12,7 @@ Download the project. If you are using Xampp copy the project inside your htdocs
 
 <b>"composer update"</b>
 
-If everything is done properly you will find the project running successfully. In case of any problems feel free to contact me at <b><i>"rajuahmad6789@gmail.com"</b></i><br> Here I have attached some screenshots from my project.
+If everything is done properly you will find the project running successfully. In case of any problems feel free to contact me at <b><i>"rajuahmad6789@gmail.com".</b></i><br> Here I have attached some screenshots from my project.
 
 <strong><i>Screenshots-</i></strong>
 
