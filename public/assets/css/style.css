@@ -1,0 +1,285 @@
+*{
+    margin:0px;
+    box-sizing:border-box;
+    transition: 0.2s all ease-in-out;
+    -webkit-transition: 0.2s all ease-in-out;
+    -o-transition: 0.2s all ease-in-out;
+    -moz-transition: 0.2s all ease-in-out;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{font-family: Arial, Verdana, Sans-serif;font-size:14px;padding-top:60px;}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width:1200px;
+}
+.row{
+    margin:0px -15px;
+}
+.row:after, .row:before {
+    display: table;
+    content: " ";
+}
+.row:after {
+    clear: both;
+}
+a{
+    text-decoration:none;
+    color:#2d9a40;
+}
+.pull-right{
+    float:right;
+}
+.pull-left{
+    float:left;
+}
+.img-responsive{
+    max-width:100%;
+    height:auto;
+}
+p{margin-bottom:5px;}
+h1,.h1{
+    font-size:35px;
+    line-height:40px;
+}
+h2,.h2{
+    font-size:30px;
+    line-height:350px;
+}
+h3,.h3{
+    font-size:25px;
+    line-height:30px;
+}
+h4,.h4{
+    font-size:20px;
+    line-height:25px;
+}
+h5,.h5{
+    font-size:15px;
+    line-height:20px;
+}
+h6,.h6{
+    font-size:10px;
+    line-height:15px;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    padding: 10px;
+    background: #2d9a40;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index:999;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.45);
+}
+.header .logo h1{
+    line-height:24px;
+}
+.header .logo a{
+    color:#fff;
+}
+.header *[class*=col-]{
+    color:#fff;
+}
+/*.header .inline-form{
+    padding:5px 10px;
+}*/
+/* Main */
+.main{
+    min-height:100%;
+    padding: 30px 0px;
+    background: fixed center;
+}
+/* Backgrounds */
+.gradient{
+    background: linear-gradient(white, #D3D8E8);
+}
+
+/*Buttons*/
+.btn {
+    background: rgba(0,0,0,0.4);
+    color: #fff;
+    border: 1px solid rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    outline: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    /* line-height: 28px; */
+    border-radius: 2px;
+    font-weight: bold;
+    text-align: center;
+}
+.btn:active{
+    box-shadow:none;
+}
+
+.btn-success {
+    background: #4CAF50;
+}
+.btn-success:hover{
+    background: #3d8c40;
+}
+/*Text*/
+.text-primary{
+    color: #0e385f;
+}
+.text-center{
+    text-align:center;
+}
+.text-mute{color:#777;}
+/* Form */
+
+input,select,textarea,button{
+    padding:5px 10px;
+    border:1px solid rgba(0,0,0,0.2);
+    border-radius:2px;
+    outline: none;
+}
+textarea{
+    width: 100%;
+}
+input:focus,select:focus,textarea:focus,button:focus{
+    border:1px solid rgba(0,0,0,0.5);
+    outline:none;
+}
+.input-lg{
+    font-size:20px;
+    padding:10px 20px;
+}
+.inline-form input{
+    display:inline-block;
+}
+.form-group{
+    display:inline-block;
+    width:100%;
+    margin-bottom:10px;
+}
+
+#post-header{
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 15px;
+}
+/*Footer*/
+.footer {
+    padding: 20px 15px;
+    box-shadow: 0px -6px 5px 0px rgba(0,0,0,0.5);
+    background: rgba(251, 249, 249, 0.45);
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: relative;
+    height: auto;
+    overflow: auto;
+}
+
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+
+
+
+.sidebar a:hover:not(.active) {
+    background-color: #2d9a40;
+    color: white;
+}
+
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+.button-image{
+    position: relative;
+}
+
+
+.button-image .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: none;
+}
+
+.button-image img {
+    border: 2px solid #4CAF50;
+    height: 200px;
+    width: 200px;
+}
+
+.button-image .btn:hover {
+    background-color: white;
+    color: #4CAF50;
+}
+
+.profile-picture-small{
+    background-image:url(../assets/imgs/wall.jpg);
+    margin-right: 1ch;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width:15px;
+    height:15px;
+    border-radius: 10px;
+}
+
+.post-comment{
+    border-top:1px solid rgba(0,0,0,0.1);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.comment-text{
+    border-radius: 5px;
+    width: 100%;
+    overflow:hidden;
+}
+
+@media screen and (max-width: 700px) {
+
+}
+
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+}
+
+/* Responsive */
+@media (max-width:768px){
+    body{padding-top:0px}
+    .header{position:relative;}
+    .header .logo{text-align:center}
+
+    .sidebar {
+        width: auto;
+        position: relative;
+        bottom: 10px;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+}
+
