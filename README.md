@@ -8,7 +8,7 @@ laravel version: 8.12.
 
 <strong><i>Run the project-</i></strong>
 
-Download the project. If you are using Xampp copy the project inside your htdocs folder. Copy the .env.example and rename it as .env. Provide your database connection in your env file. My database can be found in "project/database/database.sql" file. Import the database and  run a composer update inside your project folder by executing following command-
+Download the project. If you are using Xampp copy the project inside your htdocs folder. Copy the .env.example and rename it as .env. Provide your database connection in your env file. My database can be found in "{project_folder}/database/database.sql" file. Import the database and  run a composer update inside your project folder by executing following command-
 
 <b>"composer update"</b>
 
